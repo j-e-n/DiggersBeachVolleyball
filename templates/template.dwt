@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="EditRegion2" -->
+<title>Diggers Beach Volleyball</title>
+<!-- TemplateEndEditable -->
+<link href="../SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<link href="../css/globalstyle.css" rel="stylesheet" type="text/css" />
+<script src="../SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="banner"><img src="../images/banner1.png"/></div>
+<div id="ball"><a href="signup.html"><img src="../images/ball.png" width="150" height="150" /></a></div>
+<div id="content">
+<ul id="MenuBar3" class="MenuBarHorizontal">
+  <li><a href="index.html#">Home</a></li>
+  <li><a href="volleyball.html#">Volleyball</a></li>
+  <li><a href="leaderboard.html#">Leaderboard</a></li>
+  <li><a href="announcements.html#">Announcements</a></li>
+  <li><a href="links.html#">Links</a></li>
+  <li><a href="contact.html#">Contact Us</a></li>
+</ul>
+<p>&nbsp;</p>
+<!-- TemplateBeginEditable name="EditRegion1" -->EditRegion1<!-- TemplateEndEditable -->
+<p id="footer">&copy Diggers Beach Volleyball, 2015</p>
+</div>
+<script type="text/javascript">
+var MenuBar3 = new Spry.Widget.MenuBar("MenuBar3", {imgDown:"../SpryAssets/SpryMenuBarDownHover.gif", imgRight:"../SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-attachment: scroll;
+	background-image: url(../images/bg.jpg);
+	background-repeat: repeat;
+}
+p{
+	float: left;
+	width: 65%;
+}
+h1 {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 32px;
+	color: #555;
+	text-align: center;
+}
+h2 {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 24px;
+	color: #CF6;
+}
+.par1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #606;
+	background-image: url(../images/bg-purple.png);
+	background-repeat: repeat;
+	padding: 20px;
+}
+.par2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #C06;
+	background-image: url(../images/bg-pink.png);
+	background-repeat: repeat;
+	padding: 20px;
+}
+#ball {
+	position: fixed;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	float: right;
+}
+#banner {
+	width:1030;
+	height:200;
+	text-align: center;
+	vertical-align: middle;
+	background-image: url(../images/bg-banner.png);
+	background-repeat: repeat;
+	padding: 30px;
+	margin-right: 12.5%;
+	margin-left: 12.5%;
+}
+#content {
+	margin-right: 12.5%;
+	margin-left: 12.5%;
+}
+#content img{
+	white-space: normal;
+	border: 2px dashed #CCC;
+	float: right;
+	margin: 8px;
+}
+#content marquee img{
+		border: 2px dashed #0C0;
+		float: none;
+		margin:0px;
+}
+#footer {
+	position: static;
+	bottom: 10px;
+	height: auto;
+	color: #F90;
+	background-color: #FFC;
+	width: 100%;
+	text-align: center;
+	left: 12.5%;
+	right: 12.5%;
+}
+a:link {
+	color: #366;
+}
+a:hover {
+	color: #399;
+}
+
+
