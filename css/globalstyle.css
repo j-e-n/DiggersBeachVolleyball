@@ -37,6 +37,18 @@ h2 {
 	background-repeat: repeat;
 	padding: 20px;
 }
+.par3 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #306;
+	background-image: url(../images/bg-green.png);
+	background-repeat: repeat;
+	padding: 20px;
+	width: 95%;
+	clear: both;
+	float: none;
+	left: 80%;
+}
 #ball {
 	position: fixed;
 	margin-right: 0px;
@@ -63,6 +75,7 @@ h2 {
 	border: 2px dashed #CCC;
 	float: right;
 	margin: 8px;
+	width:270px;
 }
 #content marquee img{
 		border: 2px dashed #0C0;
@@ -79,6 +92,25 @@ h2 {
 	text-align: center;
 	left: 12.5%;
 	right: 12.5%;
+}
+#contact {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #900;
+	background-image: url(../images/bg-red.png);
+	font-size: 16px;
+	padding: 40px;
+}
+#announcement {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #930;
+	background-image: url(../images/bg-orange.png);
+	padding: 20px;
+}
+#announcement ul li{
+	display: list-item;
+	text-align: left;
+	list-style-type: circle;
 }
 a:link {
 	color: #366;
