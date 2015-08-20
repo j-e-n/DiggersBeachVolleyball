@@ -10,8 +10,8 @@
 <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
 </head>
 <body>
-<div id="banner"><img src="images/banner1.png"/></div>
-<div id="ball"><a href="signup.html"><img src="images/ball.png" width="150" height="150" /></a></div>
+<div id="banner"><img src="images/banner1.png" alt="Diggers Beach Volleyball"/></div>
+<div id="ball"><a href="signup.html"><img src="images/ball.png" alt="Join Us!"/></a></div>
 <div id="content">
 <ul id="MenuBar3" class="MenuBarHorizontal">
   <li><a href="index.html#">Home</a></li>
@@ -23,23 +23,23 @@
 </ul>
 <p>&nbsp;</p>
 <!-- InstanceBeginEditable name="EditRegion1" -->
-<div id="signup">
+
+<form id="signup" name="signup" method="post" action="">
 <h1>Contact Person Information </h1>
-<form>
-First Name : <input name="firstName" type="text" /><br />
-Last Name : <input name="lastName" type="text" /><br />
-E-mail : <input name="email" type="text" /><br />
-Competition day :<br />
-<input type="radio" name="day" value="monday">Monday<br>
-<input type="radio" name="day" value="tuesday">Tuesday<br>
-<input type="radio" name="day" value="wednesday">Wednesday<br>
-<input type="radio" name="day" value="thursday">Thursday<br>
-<input type="radio" name="day" value="friday">Friday<br>
-<input type="radio" name="day" value="saturday">Saturday<br>
-<input name="agree" type="checkbox" value="" />I have read and agree with the playing guidelines<br />
-<input name="submit" type="submit" />
+First Name : <input name="firstName" type="text" /><br /><br>
+Last Name : <input name="lastName" type="text" /><br /><br>
+&nbsp &nbsp &nbsp &nbsp E-mail : <input name="email" type="text" /><br /><br>
+Competition day : <input type="radio" name="monday" value="day">Monday<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="radio" name="tuesday" value="day">Tuesday<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="radio" name="wednesday" value="day">Wednesday<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="radio" name="thursday" value="day">Thursday<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="radio" name="friday" value="day">Friday<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="radio" name="saturday" value="day">Saturday<br>
+<br />
+<input name="agree" type="checkbox" value="agree" />I have read and agree with the playing guidelines<br /><br>
+&nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input name="submit" type="submit" value="Submit" />
+<input name="Reset" type="reset" value="Reset" />
 </form> 
-</div>
 <div id="guidelines">
 <h1>Playing Guidelines</h1>
 <ol>
