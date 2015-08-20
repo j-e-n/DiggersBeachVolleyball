@@ -26,18 +26,37 @@
 
 <form id="signup" name="signup" method="post" action="">
 <h1>Contact Person Information </h1>
-First Name : <input name="firstName" type="text" /><br /><br>
-Last Name : <input name="lastName" type="text" /><br /><br>
-&nbsp &nbsp &nbsp &nbsp E-mail : <input name="email" type="text" /><br /><br>
-Competition day : <input type="radio" name="monday" value="day">Monday<br>
-&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="radio" name="tuesday" value="day">Tuesday<br>
-&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="radio" name="wednesday" value="day">Wednesday<br>
-&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="radio" name="thursday" value="day">Thursday<br>
-&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="radio" name="friday" value="day">Friday<br>
-&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="radio" name="saturday" value="day">Saturday<br>
-<br />
+
+First Name : 
+<label for="firstName"></label>
+<input name="firstName" type="text" /><br /><br>
+
+Last Name : 
+<label for="lastName"></label>
+<input name="lastName" type="text" /><br /><br>
+
+&nbsp &nbsp &nbsp &nbsp E-mail : 
+<label for="email"></label>
+<input name="email" type="text" /><br /><br>
+
+Competition day : 
+<label for="day"></label>
+<input name="day" type="radio" name="monday" value="" id="day">Monday<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+<input name="day" type="radio" value="day" id="day">Tuesday<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+ <input name="day" type="radio" value="day" id="day">Wednesday<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+<input name="day" type="radio" value="day" id="day">Thursday<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+<input name="day" type="radio" value="day" id="day">Friday<br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+<input name="day" type="radio" value="day" id="day">Saturday<br><br />
+
 <input name="agree" type="checkbox" value="agree" />I have read and agree with the playing guidelines<br /><br>
-&nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input name="submit" type="submit" value="Submit" />
+
+&nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+<input name="submit" type="submit" value="Submit" />
 <input name="Reset" type="reset" value="Reset" />
 </form> 
 <div id="guidelines">
